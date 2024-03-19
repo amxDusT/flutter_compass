@@ -23,9 +23,9 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
-
+    namespace 'com.hemanthraj.fluttercompass'
     defaultConfig {
-        minSdkVersion 20
+        minSdkVersion flutter.minSdkVersion 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
